@@ -1,0 +1,13 @@
+name: fraud-detection
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - imbalanced-learn
+  - tensorflow
+  - pip
+  - pip:
+      - joblib
